@@ -1,8 +1,7 @@
-# Site settings
 title: Jellor Bog
 email: guodong9211@gmail.com
 description: "To be a coder."
-baseurl: ""
+baseurl: "aa"
 url: "http://jellor.github.io"
 
 # Build settings
