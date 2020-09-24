@@ -9,8 +9,6 @@ markdown: kramdown
 # custem post URL format, pretty => /:categories/:year/:month/:day/:title/
 permalink: pretty
 
-theme: minima
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
