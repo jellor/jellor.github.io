@@ -8,14 +8,12 @@
 <body>
 
   {% include header.html %}
-
-  <div class="page-content">
-    <div class="wrap">
-
+  
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
       {{ content }}
-
     </div>
-  </div>
+  </main>
 
   {% include footer.html %}
   {% include google-analytics.html %}
