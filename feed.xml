@@ -1,6 +1,5 @@
 ---
 layout: none
-# <a href="{{ site.url }}/feed.xml">RSS订阅</a>
 ---
  
 <?xml version="1.0" encoding="UTF-8"?>
