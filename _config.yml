@@ -1,12 +1,10 @@
 baseurl: ""
-title: JellorBlog
+title: Jellor
 email: guodong9211@gmail.com
-name: JellorBlog
-description: "To be a coder."
+name: Jellor
+description: "jellor blog"
 url: "http://jellor.github.io"
 markdown: kramdown
-
-# custem post URL format, pretty => /:categories/:year/:month/:day/:title/
 permalink: pretty
 
 plugins:
