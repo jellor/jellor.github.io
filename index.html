@@ -20,14 +20,14 @@ layout: default
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- assign date_format = site.minima.date_format | default: "%Y年%m月%d日" -%}
       {%- for post in posts -%}
       <li>
-        <h3>
+        <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h4>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
