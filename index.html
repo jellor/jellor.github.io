@@ -4,11 +4,16 @@ layout: default
 
 <div class="home">
   <ul class="posts">
+
     {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
-      </li>
+
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
+    </li>
+
     {% endfor %}
+    <a href="{{ site.url }}/feed.xml">RSS订阅</a>
+
   </ul>
 </div>

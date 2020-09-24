@@ -1,9 +1,19 @@
-title: Jellor Bog
+baseurl: ""
+title: JellorBlog
 email: guodong9211@gmail.com
+name: JellorBlog
 description: "To be a coder."
-baseurl: "aa"
 url: "http://jellor.github.io"
-
-# Build settings
 markdown: kramdown
+
+# custem post URL format, pretty => /:categories/:year/:month/:day/:title/
 permalink: pretty
+
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+timezone: Asia/Shanghai
+encoding: utf-8
