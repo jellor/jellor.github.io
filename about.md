@@ -9,4 +9,4 @@ permalink: /about/
 ##### 联系方式
 
 * [GitHub](https://github.com/jellor)
-* [邮箱] guodong9211@gmail.com
+* guodong9211@gmail.com
