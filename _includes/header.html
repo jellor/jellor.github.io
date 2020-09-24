@@ -5,7 +5,7 @@
 
     <nav class="site-nav">
       <div class="trigger">
-        {% for page in site.p %}
+        {% for page in site.pages %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endfor %}
       </div>
