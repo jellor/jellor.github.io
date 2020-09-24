@@ -4,10 +4,10 @@ layout: default
 
 <div class="home">
   <ul class="posts">
-    {%- for post in size.posts -%}
+    {% for post in size.posts %}
     <li>
       <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl  }}">
           {{ post.title | escape }}
         </a>
       </h3>
