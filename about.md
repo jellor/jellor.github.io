@@ -8,4 +8,3 @@ permalink: /about/
 
 #### 联系方式
 * [GitHub](https://github.com/jellor)
-* [guodong9211@gmail.com](guodong9211@gmail.com)
