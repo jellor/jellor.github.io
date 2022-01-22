@@ -88,7 +88,11 @@ cd cluster/images/kubemark/
 ```
 IMAGE_TAG=v1.13.8 make build 
 ```
-
+修改tag，并把镜像上传到dockerhub
+```
+sudo docker tag staging-k8s.gcr.io/kubemark:v1.13.8 jellor/kubemark:v1.13.8
+sudo docker push jellor/kubemark:v1.13.8
+```
 
 #### 参考
 
