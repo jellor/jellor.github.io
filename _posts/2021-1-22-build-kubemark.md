@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "编译kubemark，生成kubemark镜像"
+title: "编译kubemark，并生成镜像"
 # date:
 # category:
 tags: [kubernetes]
